@@ -1,0 +1,6 @@
+@use 'styles/mixins/font';
+
+.brand {
+  @include font.agPro(500);
+  @include font.size((28, null, -0.02));
+}
