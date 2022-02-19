@@ -1,4 +1,10 @@
 /*
+ * abstracts
+ */
+@forward './abstracts/settings';
+@forward './abstracts/fonts';
+
+/*
  * vendors
  */
 @forward './vendors/tailwind';
