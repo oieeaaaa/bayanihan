@@ -12,6 +12,7 @@ const options = [
   'Jobless',
   'Senior Citizen',
   'Orphan',
+  'Agriculture',
 ]
 
 const Filter = () => (
