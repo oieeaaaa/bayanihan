@@ -1,0 +1,23 @@
+.container {
+  @apply w-60;
+
+  &:hover {
+    cursor: pointer;
+
+    .body {
+      filter: unset;
+    }
+
+    .body::before {
+      display: block;
+    }
+  }
+}
+
+.body {
+  @apply w-60 h-80;
+
+  position: relative;
+  overflow: hidden;
+  filter: grayscale(1);
+}
