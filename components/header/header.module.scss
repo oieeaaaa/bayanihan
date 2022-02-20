@@ -1,5 +1,18 @@
 @use 'styles/mixins/font';
 
+.nav {
+  *:not(.brand) {
+    @include font.mEra(700);
+    @include font.size((16, null, 0.01));
+
+    text-transform: uppercase;
+  }
+
+  *:hover {
+    text-decoration: underline;
+  }
+}
+
 .brand {
   @include font.agPro(500);
   @include font.size((28, null, -0.02));
