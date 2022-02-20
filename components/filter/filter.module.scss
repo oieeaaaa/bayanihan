@@ -8,4 +8,5 @@
   @apply hover:bg-slate-900 hover:text-white;
 
   @include font.mEra(700);
+  @include font.size((14, null, 0.02));
 }

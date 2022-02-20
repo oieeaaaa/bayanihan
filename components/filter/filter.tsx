@@ -2,9 +2,7 @@ import styles from './filter.module.scss'
 
 const options = [
   'Extreme Poverty',
-  'Education',
   'Disability',
-  'Business',
   'Mental Health',
   'Child Labor',
   'Women',
@@ -13,6 +11,12 @@ const options = [
   'Senior Citizen',
   'Orphan',
   'Agriculture',
+  'Recreation',
+  'Homesick',
+  'Medical Issues',
+  'Native',
+  'Sexually Abused',
+  'Breadwinner',
 ]
 
 const Filter = () => (
