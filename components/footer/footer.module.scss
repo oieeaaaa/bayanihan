@@ -1,0 +1,39 @@
+@use 'styles/mixins/font';
+
+.container {
+  @apply mt-8;
+  @apply bg-slate-100;
+  @apply text-slate-500;
+}
+
+.body {
+}
+
+.list {
+  @apply py-10;
+  @apply flex justify-between;
+}
+
+.listItem {
+}
+
+.listTitle {
+  @apply text-lg text-slate-400 uppercase;
+  @apply mb-5;
+  @apply block;
+
+  @include font.mEra(700);
+
+  letter-spacing: 0.05em;
+}
+
+.nav {
+  li:hover {
+    @apply text-slate-900 underline;
+  }
+}
+
+.footnote {
+  @apply py-1;
+  @apply bg-slate-200;
+}
